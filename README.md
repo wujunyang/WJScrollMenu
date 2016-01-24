@@ -1,6 +1,12 @@
 # WJScrollMenu
 滚动菜单插件
 
+效果图如下：
+
+![image](https://github.com/wujunyang/WJScrollMenu/blob/master/WJMenu/1.png)
+
+![image](https://github.com/wujunyang/WJScrollMenu/blob/master/WJMenu/2.png)
+
 实现常用的滚动菜单效果，可以设置是否弹出窗进行选择操作；
 
     WJScrollerMenuView *vc=[[WJScrollerMenuView alloc]initWithFrame:CGRectMake(0, 64, [[UIScreen mainScreen] bounds].size.width, 50) showArrayButton:YES];
@@ -15,4 +21,5 @@
 如果不想显示右边的弹出窗Button可以如下实例：
 
 WJScrollerMenuView *vc=[[WJScrollerMenuView alloc]initWithFrame:CGRectMake(0, 64, 320, 50) showArrayButton:NO];
+
 
